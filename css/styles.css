@@ -29,11 +29,14 @@ img.joe {
 	border: solid black 1px;
 	padding: 3px;
 	margin-left: 50px;
-	margin-bottom: 10px;
+	overflow: auto;
+	
 }
-hr.half {
-	clear: right;
+
+.clearfix {
+    overflow: auto;
 }
+
 img.portfolio {
 	padding: 4px;
 	border: 1px solid black;
